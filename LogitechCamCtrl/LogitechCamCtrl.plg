@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LogitechCamCtrl - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Berger\AppData\Local\Temp\RSPE35B.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/LogitechCamCtrl.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\MYPROJECTS\SMALLPROJECT\LogitechCamCtrl\LogitechCamCtrl\LogitechCamCtrl1.cpp"
+]
+Creating command line "cl.exe @C:\Users\Berger\AppData\Local\Temp\RSPE35B.tmp" 
+Creating temporary file "C:\Users\Berger\AppData\Local\Temp\RSPE36B.tmp" with contents
+[
+strmbasd.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/LogitechCamCtrl.pdb" /debug /machine:I386 /out:"Debug/LogitechCamCtrl.exe" /pdbtype:sept 
+.\Debug\LogitechCamCtrl.obj
+.\Debug\LogitechCamCtrl1.obj
+.\Debug\LogitechCamCtrlDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\LogitechCamCtrl.res
+]
+Creating command line "link.exe @C:\Users\Berger\AppData\Local\Temp\RSPE36B.tmp"
+<h3>Output Window</h3>
+Compiling...
+LogitechCamCtrl1.cpp
+D:\MYPROJECTS\SMALLPROJECT\LogitechCamCtrl\LogitechCamCtrl\LogitechCamCtrl1.cpp(529) : warning C4800: 'long' : forcing value to bool 'true' or 'false' (performance warning)
+D:\MYPROJECTS\SMALLPROJECT\LogitechCamCtrl\LogitechCamCtrl\LogitechCamCtrl1.cpp(557) : warning C4800: 'long' : forcing value to bool 'true' or 'false' (performance warning)
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/LogitechCamCtrl.bsc"  .\Debug\StdAfx.sbr .\Debug\LogitechCamCtrl.sbr .\Debug\LogitechCamCtrl1.sbr .\Debug\LogitechCamCtrlDlg.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+LogitechCamCtrl.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
